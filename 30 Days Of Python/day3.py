@@ -1,0 +1,32 @@
+
+age=20
+height_=1.83
+complex=1+1j
+base=float(input("enter base: "))
+height=float(input("enter height: "))
+print(base*height*1/2)#
+a=float(input("enter a: "))
+b=float(input("enter b: "))
+c=float(input("enter c: "))
+print(a+b+c)
+length=float(input("enter length"))
+width=float(input("enter width"))
+print(length*width)
+print(2*(length+width))
+radius=float(input("enter radius"))
+print(3.14*radius*radius)
+print(2*3.14*radius)
+print(len("python")!=len("dragon"))
+print( "on" in "python"  and "on" in "dragon")
+print("jargon" in "I hope this lesson is not full of jargon")
+print( not("on" in "python"  and "on" in "dragon"))
+print(str(float(len("python"))))
+print(5%2==0)
+print(7//3==int(2.7))
+print(type(10)==type(10.0))
+print(int(9.8)==10)
+hours=int(input("Enter Hours"))
+rate=float(input("enter rate"))
+print(hours*rate)
+years=int(input("enter years"))
+print(years*365*24*60*60)

@@ -1,9 +1,11 @@
 def Transalator(phrase):
     translation=""
-    for row in phrase:
-        for col in row:
-            if col =='a' or col=='e' or col=='i' or col =='o' or col=='u' or col=='y':
-                col='g'
-            translation+=col
+    for letter in phrase:
+        if letter in "AEIOU":
+
+                letter='G'
+        elif letter in "aeiou":
+            letter='g'
+        translation+=letter
     return translation
-print(Transalator("dog"))
+print(Transalator(input("enter phrase: ")))

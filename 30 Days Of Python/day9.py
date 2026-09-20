@@ -70,7 +70,7 @@ person = {
 if "skills" in person:
     skill_list=list(person["skills"])
     print(skill_list[len(skill_list)//2])
-    if 'python' in skill_list:
+    if 'Python' in skill_list:
         print("He has python skills")
     else :
         print("he doesn't have python skills")

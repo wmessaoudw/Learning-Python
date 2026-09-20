@@ -34,7 +34,7 @@ else :
 month=input("Enter Month: ")
 month=month.lower()
 autumn=["september","october","november"]
-winter=["december,january","february"]
+winter=["december","january","february"]
 spring=["march", "april", "may"]
 summer=["june","july","august"]
 if month in autumn:

@@ -8,4 +8,4 @@ def bubble_sort(lis):
                 lis[j+1]=temp
 lis=[0,6,5,2,7,9,3]
 bubble_sort(lis)
-print(lis)
+prin
